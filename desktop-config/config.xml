@@ -347,7 +347,7 @@
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
     </folder>
-    <folder id="home-downloads" label="DESKTOP/Home/Downloads" path="~/loads" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
+    <folder id="home-downloads" label="DESKTOP/Home/Loads" path="~/loads" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
         <device id="THYGV2N-F3AU72S-XEX7XLZ-Q7QLEFM-JKBSD2K-EPKBB7O-7WACV7G-DP4EHQG" introducedBy=""></device>
         <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy=""></device>

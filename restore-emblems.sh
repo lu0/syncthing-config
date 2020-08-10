@@ -1,8 +1,10 @@
 #!/bin/bash
 
-# ----------------------------------------------------------------------
-# Hide Syncthing emblems and restore shortcut emblems
-# ----------------------------------------------------------------------
+#
+# Hide Syncthing emblems and restore shortcut emblems (on Nemo)
+#
+# github.com/lu0
+#
 
 # Restore emblems
 homedirs=($(ls -d ~/*/))

@@ -40,6 +40,14 @@ Syncthing store the config files in ```~/.config/syncthing/```, mount this folde
 mkdir -p ~/code/syncthing-config/desktop-config/
 sudo mount --bind ~/.config/syncthing/ ~/code/syncthing-config/desktop-config/
 ```
+If using Nemo, run the following script to hide "link" emblems and show Syncthing emblems on the synced folders.
+```zsh
+./emblems.sh
+```
+In case you want to restore the default emblems, run:
+```zsh
+./restore-emblems
+```
 
 ### Android config
 Use "Import and Export" in the app settings to store a backup of the config files in ```[internal data]/backups/syncthing/```. I sync this folder with my computer in ```~/mobile/DEVICE/int-syncthing```.
