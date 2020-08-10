@@ -5,3 +5,5 @@ https-cert.pem
 https-key.pem
 cert.pem
 key.pem
+.android-config.xml
+.desktop-config.xml
