@@ -516,6 +516,10 @@
         <maxRecvKbps>0</maxRecvKbps>
         <maxRequestKiB>0</maxRequestKiB>
     </device>
+    <gui enabled="true" tls="false" debugging="false">
+        <address>127.0.0.1:8384</address>
+        <theme>dark</theme>
+    </gui>
     <ldap></ldap>
     <options>
         <listenAddress>default</listenAddress>

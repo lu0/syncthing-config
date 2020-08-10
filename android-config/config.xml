@@ -258,6 +258,11 @@
         <maxRecvKbps>0</maxRecvKbps>
         <maxRequestKiB>0</maxRequestKiB>
     </device>
+    <gui enabled="true" tls="true" debugging="false">
+        <address>127.0.0.1:8384</address>
+        <user>syncthing</user>
+        <theme>dark</theme>
+    </gui>
     <ldap></ldap>
     <options>
         <listenAddress>default</listenAddress>
