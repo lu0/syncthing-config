@@ -1,5 +1,5 @@
 # Syncthing Config
-This repo tracks the the [Syncthing](https://github.com/syncthing/syncthing) config files of my phone and my laptops.
+This repo tracks the [Syncthing](https://github.com/syncthing/syncthing) config files of my phone and my laptops.
 
 ## What do I sync?
 I sync some folders of my home directory between my laptops, and some folders of my phone.
@@ -13,6 +13,7 @@ Usual folders:
 * Pictures
 * Templates
 * Videos
+
 Custom folders:
 * Artwork
 * Code
@@ -27,8 +28,9 @@ Current Android versions only grants Syncthing read-only access to the SD card, 
 * Voice recordings
 * Backup folder of syncthing
 
-## Setup and explanation
-Syncthing [overwrites the config.xml file](https://github.com/syncthing/syncthing/issues/6628) instead of editing it, so neither symlinks nor hardlinks from the config files to the repo will work. A workaround to track those files is to mount their parent directories in folders created inside the repo, add the config.xml files and use the .gitignore to ignore files containing sensitive data.
+## Setup
+Syncthing [overwrites the config file](https://github.com/syncthing/syncthing/issues/6628) instead of editing it, so neither symlinks nor hardlinks from the config files to the repo will work. A workaround to track those files is to mount their parent directories in folders created inside the repo, stage the config.xml files and use the .gitignore to ignore files containing sensitive data.
+<br />
 <br />
 The following steps uses paths of my machine for sake of example.
 
@@ -46,7 +48,7 @@ mkdir -p ~/code/syncthing-config/android-config/
 sudo mount --bind ~/mobile/DEVICE/int-syncthing/ ~/code/syncthing-config/android-config/
 ```
 ### Sensitive files and folders to be ignored by git
-The following files [must not be tracked](https://github.com/lu0/dotfiles_linuxMint):
+The ```.gitignore``` contains the list of files and folders that [must not be tracked](https://docs.syncthing.net/users/security.html#protecting-your-syncthing-keys-and-identity):
 * key.pem
 * cert.pem
 * https-key.pem
@@ -55,7 +57,7 @@ The following files [must not be tracked](https://github.com/lu0/dotfiles_linuxM
 * sharedpreferences.dat
 * index-v0.14.0.db
 
-Only folder and device IDs [can be tracked](https://docs.syncthing.net/users/faq.html#should-i-keep-my-device-ids-secret), those IDs are stored in the ```config.xml``` files. However, this files include API keys. What I did was commit blank ```config.xml``` files, then pasted and committed the lines with non-sensitive data and lastly I added the sensitive data to the files but didn't commit them. I mantain the repo using a pre-commit hook to avoid commiting lines with API keys:
+Only folder and device IDs [can be tracked](https://docs.syncthing.net/users/faq.html#should-i-keep-my-device-ids-secret), those IDs are stored in the ```config.xml``` files. However, these files include API keys. What I did was commit blank ```config.xml``` files, then pasted and committed the lines with non-sensitive data and lastly I added the sensitive data to the files but didn't commit them. I mantain the repo using a pre-commit hook to avoid commiting lines with API keys:
 
 ```zsh
 cp pre-commit .git/hooks/
