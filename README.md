@@ -1,4 +1,4 @@
-# Syncthing Config
+# syncthing-config
 This repo tracks the [Syncthing](https://github.com/syncthing/syncthing) config files of my phone and my laptops.
 
 ## What do I sync?
