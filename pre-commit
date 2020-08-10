@@ -2,13 +2,17 @@
 
 # An example hook script to verify what is about to be committed.
 # Called by "git commit" with no arguments.  The hook looks for
-# files with "apikey" and "password" strings and shows a warning
+# files with "apikey", "password" and "urUniqueID" shows a warning
+#
+# Author: lu0
+#
 
-flags=$(git diff --no-ext-diff --staged | egrep -i --count "apikey|password")
+flags=$(git diff -U0 --no-ext-diff --staged | egrep -i --count "apikey|password|urUniqueID")
 if [ "$flags" -ne "0" ]; then
    echo "WARNING! You are attempting to commit sensitive data from:"
-   git diff --no-ext-diff --staged --name-only -i -G "apikey|password" | sed 's/^/\t* /'
-   echo -e "\nUnstage relevant hunks with"
-   echo -e "\tgit reset --patch'"
+   git diff --no-ext-diff --staged --name-only -i -G "apikey|password|urUniqueID" | sed 's/^/\t* /'
+   echo -e "\nPlease review and unstage relevant hunks of those files with"
+   echo -e "\tgit reset --patch"
+   # echo -e "\nCommit using the '--no-verify' option to ignore this warning (not recommended)"
    exit 1 
 fi
