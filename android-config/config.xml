@@ -1,7 +1,7 @@
 <configuration version="31">
     <folder id="ga50-int-app-pictures" label="INT/App Pictures" path="/storage/emulated/0/Pictures" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="true" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="DBSMLJM-MGNIROX-7GBC52B-5XBUIST-FROGUKU-ASW4KTA-A5INXF6-RRVTIQS" introducedBy=""></device>
+        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy=""></device>
         <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy=""></device>
         <minDiskFree unit="%">1</minDiskFree>
         <versioning type="trashcan">
@@ -28,7 +28,7 @@
     </folder>
     <folder id="ga50-int-dcim" label="INT/DCIM" path="/storage/emulated/0/DCIM" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="true" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="DBSMLJM-MGNIROX-7GBC52B-5XBUIST-FROGUKU-ASW4KTA-A5INXF6-RRVTIQS" introducedBy=""></device>
+        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy=""></device>
         <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy=""></device>
         <minDiskFree unit="%">5</minDiskFree>
         <versioning type="trashcan">
@@ -55,7 +55,7 @@
     </folder>
     <folder id="ga50-int-downloads" label="INT/Downloads" path="/storage/emulated/0/Download" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="true" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="DBSMLJM-MGNIROX-7GBC52B-5XBUIST-FROGUKU-ASW4KTA-A5INXF6-RRVTIQS" introducedBy=""></device>
+        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy=""></device>
         <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy=""></device>
         <minDiskFree unit="%">5</minDiskFree>
         <versioning type="trashcan">
@@ -82,7 +82,7 @@
     </folder>
     <folder id="ga50-int-voice" label="INT/Voice" path="/storage/emulated/0/Voice Recorder" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="true" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="DBSMLJM-MGNIROX-7GBC52B-5XBUIST-FROGUKU-ASW4KTA-A5INXF6-RRVTIQS" introducedBy=""></device>
+        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy=""></device>
         <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy=""></device>
         <minDiskFree unit="%">5</minDiskFree>
         <versioning type="trashcan">
@@ -109,7 +109,7 @@
     </folder>
     <folder id="ga50-int-whats" label="INT/Whats" path="/storage/emulated/0/WhatsApp/Media" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="true" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="DBSMLJM-MGNIROX-7GBC52B-5XBUIST-FROGUKU-ASW4KTA-A5INXF6-RRVTIQS" introducedBy=""></device>
+        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy=""></device>
         <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy=""></device>
         <minDiskFree unit="%">5</minDiskFree>
         <versioning type="trashcan">
@@ -136,7 +136,7 @@
     </folder>
     <folder id="ga50-sd-dcim" label="SD/DCIM" path="/storage/81B0-1B11/DCIM" type="sendonly" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="true" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="DBSMLJM-MGNIROX-7GBC52B-5XBUIST-FROGUKU-ASW4KTA-A5INXF6-RRVTIQS" introducedBy=""></device>
+        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy=""></device>
         <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy=""></device>
         <minDiskFree unit="%">5</minDiskFree>
         <versioning type="trashcan">
@@ -163,7 +163,7 @@
     </folder>
     <folder id="ga50-sd-downloads" label="SD/Downloads" path="/storage/81B0-1B11/Download" type="sendonly" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="true" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="DBSMLJM-MGNIROX-7GBC52B-5XBUIST-FROGUKU-ASW4KTA-A5INXF6-RRVTIQS" introducedBy=""></device>
+        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy=""></device>
         <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy=""></device>
         <minDiskFree unit="%">5</minDiskFree>
         <versioning type="trashcan">
@@ -190,7 +190,7 @@
     </folder>
     <folder id="ga50-sd-voice" label="SD/Voice" path="/storage/81B0-1B11/Voice Recorder" type="sendonly" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="true" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="DBSMLJM-MGNIROX-7GBC52B-5XBUIST-FROGUKU-ASW4KTA-A5INXF6-RRVTIQS" introducedBy=""></device>
+        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy=""></device>
         <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy=""></device>
         <minDiskFree unit="%">5</minDiskFree>
         <versioning type="trashcan">
@@ -217,7 +217,7 @@
     </folder>
     <folder id="ga50-syncthing-config" label="INT/Syncthing Config" path="/storage/emulated/0/backups/syncthing" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="true" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="DBSMLJM-MGNIROX-7GBC52B-5XBUIST-FROGUKU-ASW4KTA-A5INXF6-RRVTIQS" introducedBy=""></device>
+        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy=""></device>
         <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy=""></device>
         <minDiskFree unit="%">5</minDiskFree>
         <versioning type="trashcan">
@@ -242,7 +242,7 @@
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
     </folder>
-    <device id="DBSMLJM-MGNIROX-7GBC52B-5XBUIST-FROGUKU-ASW4KTA-A5INXF6-RRVTIQS" name="PHONE/GA50" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
+    <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" name="PHONE/GA50" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
         <address>dynamic</address>
         <paused>false</paused>
         <autoAcceptFolders>false</autoAcceptFolders>
