@@ -8,6 +8,7 @@
             <param key="cleanInterval" val="3600"></param>
             <param key="maxAge" val="5184000"></param>
             <param key="versionsPath" val="/mnt/Data/HomeDir/.syncthing-versions"></param>
+            <cleanupIntervalS>3600</cleanupIntervalS>
         </versioning>
         <copiers>0</copiers>
         <pullerMaxPendingKiB>0</pullerMaxPendingKiB>
@@ -27,6 +28,7 @@
         <maxConcurrentWrites>0</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
+        <copyRangeMethod>standard</copyRangeMethod>
     </folder>
     <folder id="ga50-int-dcim" label="PHONE/GA50/Int-DCIM" path="~/mobile/ga50/int-dcim" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
@@ -37,6 +39,7 @@
             <param key="cleanInterval" val="3600"></param>
             <param key="maxAge" val="15552000"></param>
             <param key="versionsPath" val="/mnt/Data/HomeDir/.syncthing-versions"></param>
+            <cleanupIntervalS>3600</cleanupIntervalS>
         </versioning>
         <copiers>0</copiers>
         <pullerMaxPendingKiB>0</pullerMaxPendingKiB>
@@ -56,6 +59,7 @@
         <maxConcurrentWrites>0</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
+        <copyRangeMethod>standard</copyRangeMethod>
     </folder>
     <folder id="ga50-int-downloads" label="PHONE/GA50/Int-Downloads" path="~/mobile/ga50/int-downloads" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
@@ -66,6 +70,7 @@
             <param key="cleanInterval" val="3600"></param>
             <param key="maxAge" val="15552000"></param>
             <param key="versionsPath" val="/mnt/Data/HomeDir/.syncthing-versions"></param>
+            <cleanupIntervalS>3600</cleanupIntervalS>
         </versioning>
         <copiers>0</copiers>
         <pullerMaxPendingKiB>0</pullerMaxPendingKiB>
@@ -85,6 +90,7 @@
         <maxConcurrentWrites>0</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
+        <copyRangeMethod>standard</copyRangeMethod>
     </folder>
     <folder id="ga50-int-voice" label="PHONE/GA50/Int-Voice" path="~/mobile/ga50/int-voice" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
@@ -95,6 +101,7 @@
             <param key="cleanInterval" val="3600"></param>
             <param key="maxAge" val="5184000"></param>
             <param key="versionsPath" val="/mnt/Data/HomeDir/.syncthing-versions/"></param>
+            <cleanupIntervalS>3600</cleanupIntervalS>
         </versioning>
         <copiers>0</copiers>
         <pullerMaxPendingKiB>0</pullerMaxPendingKiB>
@@ -114,6 +121,7 @@
         <maxConcurrentWrites>0</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
+        <copyRangeMethod>standard</copyRangeMethod>
     </folder>
     <folder id="ga50-int-whats" label="PHONE/GA50/Int-Whats" path="~/mobile/ga50/int-whats" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
@@ -124,6 +132,7 @@
             <param key="cleanInterval" val="3600"></param>
             <param key="maxAge" val="15552000"></param>
             <param key="versionsPath" val="/mnt/Data/HomeDir/.syncthing-versions"></param>
+            <cleanupIntervalS>3600</cleanupIntervalS>
         </versioning>
         <copiers>0</copiers>
         <pullerMaxPendingKiB>0</pullerMaxPendingKiB>
@@ -143,6 +152,7 @@
         <maxConcurrentWrites>0</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
+        <copyRangeMethod>standard</copyRangeMethod>
     </folder>
     <folder id="ga50-sd-dcim" label="PHONE/GA50/SD-DCIM" path="~/mobile/ga50/sd-dcim" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
@@ -153,6 +163,7 @@
             <param key="cleanInterval" val="3600"></param>
             <param key="maxAge" val="15552000"></param>
             <param key="versionsPath" val="/mnt/Data/HomeDir/.syncthing-versions"></param>
+            <cleanupIntervalS>3600</cleanupIntervalS>
         </versioning>
         <copiers>0</copiers>
         <pullerMaxPendingKiB>0</pullerMaxPendingKiB>
@@ -172,6 +183,7 @@
         <maxConcurrentWrites>0</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
+        <copyRangeMethod>standard</copyRangeMethod>
     </folder>
     <folder id="ga50-sd-downloads" label="PHONE/GA50/SD-Downloads" path="~/mobile/ga50/sd-downloads" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
@@ -182,6 +194,7 @@
             <param key="cleanInterval" val="3600"></param>
             <param key="maxAge" val="5184000"></param>
             <param key="versionsPath" val="/mnt/Data/HomeDir/.syncthing-versions/"></param>
+            <cleanupIntervalS>3600</cleanupIntervalS>
         </versioning>
         <copiers>0</copiers>
         <pullerMaxPendingKiB>0</pullerMaxPendingKiB>
@@ -201,6 +214,7 @@
         <maxConcurrentWrites>0</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
+        <copyRangeMethod>standard</copyRangeMethod>
     </folder>
     <folder id="ga50-sd-voice" label="PHONE/GA50/SD-Voice" path="~/mobile/ga50/sd-voice" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
@@ -211,6 +225,7 @@
             <param key="cleanInterval" val="3600"></param>
             <param key="maxAge" val="15552000"></param>
             <param key="versionsPath" val="/mnt/Data/HomeDir/.syncthing-versions"></param>
+            <cleanupIntervalS>3600</cleanupIntervalS>
         </versioning>
         <copiers>0</copiers>
         <pullerMaxPendingKiB>0</pullerMaxPendingKiB>
@@ -230,6 +245,7 @@
         <maxConcurrentWrites>0</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
+        <copyRangeMethod>standard</copyRangeMethod>
     </folder>
     <folder id="ga50-syncthing-config" label="PHONE/GA50/Int-Syncthing Config" path="~/mobile/ga50/int-syncthing/" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
@@ -240,6 +256,7 @@
             <param key="cleanInterval" val="3600"></param>
             <param key="maxAge" val="5184000"></param>
             <param key="versionsPath" val="/mnt/Data/HomeDir/.syncthing-versions/"></param>
+            <cleanupIntervalS>3600</cleanupIntervalS>
         </versioning>
         <copiers>0</copiers>
         <pullerMaxPendingKiB>0</pullerMaxPendingKiB>
@@ -259,6 +276,7 @@
         <maxConcurrentWrites>0</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
+        <copyRangeMethod>standard</copyRangeMethod>
     </folder>
     <folder id="home-artwork" label="DESKTOP/Home/Artwork" path="~/artwork" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
@@ -269,6 +287,7 @@
             <param key="cleanInterval" val="3600"></param>
             <param key="maxAge" val="5184000"></param>
             <param key="versionsPath" val="/mnt/Data/HomeDir/.syncthing-versions/"></param>
+            <cleanupIntervalS>3600</cleanupIntervalS>
         </versioning>
         <copiers>0</copiers>
         <pullerMaxPendingKiB>0</pullerMaxPendingKiB>
@@ -288,6 +307,7 @@
         <maxConcurrentWrites>0</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
+        <copyRangeMethod>standard</copyRangeMethod>
     </folder>
     <folder id="home-code" label="DESKTOP/Home/Code" path="~/code" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
@@ -298,6 +318,7 @@
             <param key="cleanInterval" val="3600"></param>
             <param key="maxAge" val="5184000"></param>
             <param key="versionsPath" val="/mnt/Data/HomeDir/.syncthing-versions/"></param>
+            <cleanupIntervalS>3600</cleanupIntervalS>
         </versioning>
         <copiers>0</copiers>
         <pullerMaxPendingKiB>0</pullerMaxPendingKiB>
@@ -317,6 +338,7 @@
         <maxConcurrentWrites>0</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
+        <copyRangeMethod>standard</copyRangeMethod>
     </folder>
     <folder id="home-documents" label="DESKTOP/Home/Documents" path="~/documents" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
@@ -327,6 +349,7 @@
             <param key="cleanInterval" val="3600"></param>
             <param key="maxAge" val="15552000"></param>
             <param key="versionsPath" val="/mnt/Data/HomeDir/.syncthing-versions"></param>
+            <cleanupIntervalS>3600</cleanupIntervalS>
         </versioning>
         <copiers>0</copiers>
         <pullerMaxPendingKiB>0</pullerMaxPendingKiB>
@@ -346,6 +369,7 @@
         <maxConcurrentWrites>0</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
+        <copyRangeMethod>standard</copyRangeMethod>
     </folder>
     <folder id="home-downloads" label="DESKTOP/Home/Loads" path="~/loads" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
@@ -356,6 +380,7 @@
             <param key="cleanInterval" val="3600"></param>
             <param key="maxAge" val="15552000"></param>
             <param key="versionsPath" val="/mnt/Data/HomeDir/.syncthing-versions"></param>
+            <cleanupIntervalS>3600</cleanupIntervalS>
         </versioning>
         <copiers>0</copiers>
         <pullerMaxPendingKiB>0</pullerMaxPendingKiB>
@@ -375,6 +400,7 @@
         <maxConcurrentWrites>0</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
+        <copyRangeMethod>standard</copyRangeMethod>
     </folder>
     <folder id="home-music" label="DESKTOP/Home/Music" path="~/music" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
@@ -385,6 +411,7 @@
             <param key="cleanInterval" val="3600"></param>
             <param key="maxAge" val="15552000"></param>
             <param key="versionsPath" val="/mnt/Data/HomeDir/.syncthing-versions"></param>
+            <cleanupIntervalS>3600</cleanupIntervalS>
         </versioning>
         <copiers>0</copiers>
         <pullerMaxPendingKiB>0</pullerMaxPendingKiB>
@@ -404,6 +431,7 @@
         <maxConcurrentWrites>0</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
+        <copyRangeMethod>standard</copyRangeMethod>
     </folder>
     <folder id="home-pictures" label="DESKTOP/Home/Pictures" path="~/pictures" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
@@ -414,6 +442,7 @@
             <param key="cleanInterval" val="3600"></param>
             <param key="maxAge" val="15552000"></param>
             <param key="versionsPath" val="/mnt/Data/HomeDir/.syncthing-versions"></param>
+            <cleanupIntervalS>3600</cleanupIntervalS>
         </versioning>
         <copiers>0</copiers>
         <pullerMaxPendingKiB>0</pullerMaxPendingKiB>
@@ -433,6 +462,7 @@
         <maxConcurrentWrites>0</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
+        <copyRangeMethod>standard</copyRangeMethod>
     </folder>
     <folder id="home-templates" label="DESKTOP/Home/Templates" path="~/templates" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
@@ -443,6 +473,7 @@
             <param key="cleanInterval" val="3600"></param>
             <param key="maxAge" val="5184000"></param>
             <param key="versionsPath" val="/mnt/Data/HomeDir/.syncthing-versions/"></param>
+            <cleanupIntervalS>3600</cleanupIntervalS>
         </versioning>
         <copiers>0</copiers>
         <pullerMaxPendingKiB>0</pullerMaxPendingKiB>
@@ -462,6 +493,7 @@
         <maxConcurrentWrites>0</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
+        <copyRangeMethod>standard</copyRangeMethod>
     </folder>
     <folder id="home-videos" label="DESKTOP/Home/Videos" path="~/videos" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
@@ -472,6 +504,7 @@
             <param key="cleanInterval" val="3600"></param>
             <param key="maxAge" val="15552000"></param>
             <param key="versionsPath" val="/mnt/Data/HomeDir/.syncthing-versions"></param>
+            <cleanupIntervalS>3600</cleanupIntervalS>
         </versioning>
         <copiers>0</copiers>
         <pullerMaxPendingKiB>0</pullerMaxPendingKiB>
@@ -491,8 +524,9 @@
         <maxConcurrentWrites>0</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
+        <copyRangeMethod>standard</copyRangeMethod>
     </folder>
-    <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" name="PHONE/GA50" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
+    <device id="THYGV2N-F3AU72S-XEX7XLZ-Q7QLEFM-JKBSD2K-EPKBB7O-7WACV7G-DP4EHQG" name="DESKTOP/D-5437" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
         <address>dynamic</address>
         <paused>false</paused>
         <autoAcceptFolders>false</autoAcceptFolders>
@@ -500,7 +534,7 @@
         <maxRecvKbps>0</maxRecvKbps>
         <maxRequestKiB>0</maxRequestKiB>
     </device>
-    <device id="THYGV2N-F3AU72S-XEX7XLZ-Q7QLEFM-JKBSD2K-EPKBB7O-7WACV7G-DP4EHQG" name="DESKTOP/D-5437" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
+    <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" name="PHONE/GA50" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
         <address>dynamic</address>
         <paused>false</paused>
         <autoAcceptFolders>false</autoAcceptFolders>
