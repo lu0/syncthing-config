@@ -49,18 +49,12 @@ In case you want to restore the default emblems, run:
 ./restore-emblems
 ```
 
-### Android config
-Use "Import and Export" in the app settings to store a backup of the config files in ```[internal data]/backups/syncthing/```. I sync this folder with my computer in ```~/mobile/DEVICE/int-syncthing```.
-```zsh
-mkdir -p ~/code/syncthing-config/android-config/
-sudo mount --bind ~/mobile/ga50/int-syncthing/ ~/code/syncthing-config/android-config/
-```
 ### Run at startup
 If everything works as intended, edit `/etc/fstab/` with:
 ```zsh
 ...
 /home/USER/.config/syncthing/ /home/USER/code/syncthing-config/desktop-config/              none user,nodev,x-gvfs-hide,bind 0 0
-/home/USER/mobile/DEVICE/int-syncthing/ /home/USER/code/syncthing-config/android-config/    none user,nodev,x-gvfs-hide,bind 0 0
+...
 ```
 
 ### Sensitive files and folders to be ignored by git
