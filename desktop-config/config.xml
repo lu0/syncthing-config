@@ -1,4 +1,4 @@
-<configuration version="31">
+<configuration version="32">
     <folder id="home-artwork" label="DESKTOP/Home/Artwork" path="/home/lucero/artwork/" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
         <device id="THYGV2N-F3AU72S-XEX7XLZ-Q7QLEFM-JKBSD2K-EPKBB7O-7WACV7G-DP4EHQG" introducedBy=""></device>
@@ -29,6 +29,8 @@
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
         <copyRangeMethod>standard</copyRangeMethod>
+        <caseSensitiveFS>false</caseSensitiveFS>
+        <junctionsAsDirs>true</junctionsAsDirs>
     </folder>
     <folder id="home-documents" label="DESKTOP/Home/Documents" path="/home/lucero/documents/" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
@@ -60,6 +62,8 @@
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
         <copyRangeMethod>standard</copyRangeMethod>
+        <caseSensitiveFS>false</caseSensitiveFS>
+        <junctionsAsDirs>true</junctionsAsDirs>
     </folder>
     <folder id="home-downloads" label="DESKTOP/Home/Loads" path="/home/lucero/loads/" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
@@ -88,6 +92,8 @@
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
         <copyRangeMethod>standard</copyRangeMethod>
+        <caseSensitiveFS>false</caseSensitiveFS>
+        <junctionsAsDirs>true</junctionsAsDirs>
     </folder>
     <folder id="home-mobile" label="DESKTOP/Home/Mobile" path="/home/lucero/mobile" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
@@ -119,6 +125,8 @@
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
         <copyRangeMethod>standard</copyRangeMethod>
+        <caseSensitiveFS>false</caseSensitiveFS>
+        <junctionsAsDirs>true</junctionsAsDirs>
     </folder>
     <folder id="home-music" label="DESKTOP/Home/Music" path="/home/lucero/music" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
@@ -150,6 +158,8 @@
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
         <copyRangeMethod>standard</copyRangeMethod>
+        <caseSensitiveFS>false</caseSensitiveFS>
+        <junctionsAsDirs>true</junctionsAsDirs>
     </folder>
     <folder id="home-pictures" label="DESKTOP/Home/Pictures" path="/home/lucero/pictures/" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
@@ -181,6 +191,8 @@
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
         <copyRangeMethod>standard</copyRangeMethod>
+        <caseSensitiveFS>false</caseSensitiveFS>
+        <junctionsAsDirs>true</junctionsAsDirs>
     </folder>
     <folder id="home-templates" label="DESKTOP/Home/Templates" path="/home/lucero/templates/" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
@@ -212,6 +224,8 @@
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
         <copyRangeMethod>standard</copyRangeMethod>
+        <caseSensitiveFS>false</caseSensitiveFS>
+        <junctionsAsDirs>true</junctionsAsDirs>
     </folder>
     <folder id="home-videos" label="DESKTOP/Home/Videos" path="/home/lucero/videos/" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
@@ -243,6 +257,8 @@
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
         <copyRangeMethod>standard</copyRangeMethod>
+        <caseSensitiveFS>false</caseSensitiveFS>
+        <junctionsAsDirs>true</junctionsAsDirs>
     </folder>
     <device id="THYGV2N-F3AU72S-XEX7XLZ-Q7QLEFM-JKBSD2K-EPKBB7O-7WACV7G-DP4EHQG" name="DESKTOP/D-5437" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
         <address>dynamic</address>
