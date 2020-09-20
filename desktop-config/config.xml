@@ -321,8 +321,8 @@
         <localAnnounceEnabled>true</localAnnounceEnabled>
         <localAnnouncePort>21027</localAnnouncePort>
         <localAnnounceMCAddr>[ff12::8384]:21027</localAnnounceMCAddr>
-        <maxSendKbps>5000</maxSendKbps>
-        <maxRecvKbps>5000</maxRecvKbps>
+        <maxSendKbps>0</maxSendKbps>
+        <maxRecvKbps>0</maxRecvKbps>
         <reconnectionIntervalS>60</reconnectionIntervalS>
         <relaysEnabled>true</relaysEnabled>
         <relayReconnectIntervalM>10</relayReconnectIntervalM>
