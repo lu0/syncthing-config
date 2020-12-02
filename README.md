@@ -56,7 +56,7 @@ mkdir -p ~/code/syncthing-config/android-config/
 sudo mount --bind ~/mobile/ga50/int-syncthing/ ~/code/syncthing-config/android-config/
 ```
 ### Run at startup
-If everything works as intended, edit `/etc/fstab/` with:
+If everything works as intended, edit `/etc/fstab` with:
 ```zsh
 ...
 /home/USER/.config/syncthing/ /home/USER/code/syncthing-config/desktop-config/              none user,nodev,x-gvfs-hide,bind 0 0
