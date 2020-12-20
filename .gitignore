@@ -11,3 +11,4 @@ config.sync*
 .android-config.xml
 .desktop-config.xml
 desktop-config/config.xml.v31
+syncthing-latest/

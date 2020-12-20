@@ -28,6 +28,23 @@ Current Android versions only grants Syncthing read-only access to the SD card, 
 * Voice recordings
 * Backup folder of syncthing
 
+## Installation
+Get the latest stable release.
+```zsh
+curl -s https://api.github.com/repos/syncthing/syncthing/releases/latest \
+        | grep "browser_download_url.*tar.gz" | grep "linux-amd64" \
+        | cut -d '"' -f 4 \
+        | wget -i - -O syncthing-latest.tar.gz
+```
+
+Extract its contents and create a local symlink to the binary.
+```zsh
+mkdir -p syncthing-latest
+tar -xf syncthing-latest.tar.gz -C syncthing-latest/ --strip-components=1
+rm syncthing-latest.tar.gz
+ln -srf syncthing-latest/syncthing ~/.local/bin/
+```
+
 ## Setup
 Syncthing [overwrites the config file](https://github.com/syncthing/syncthing/issues/6628) instead of editing it, so neither symlinks nor hardlinks from the config files to the repo will work. A workaround to track those files is to mount their parent directories in folders created inside the repo, stage the config.xml files and use the .gitignore to ignore files containing sensitive data.
 <br />
