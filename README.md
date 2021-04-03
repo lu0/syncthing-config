@@ -93,6 +93,6 @@ The ```.gitignore``` contains the list of files and folders that [must not be tr
 Only folder and device IDs [can be tracked](https://docs.syncthing.net/users/faq.html#should-i-keep-my-device-ids-secret), those IDs are stored in the ```config.xml``` files. However, these files include API keys. What I did was commit blank ```config.xml``` files, then pasted and committed the lines with non-sensitive data and lastly I added the sensitive data to the files but didn't commit them. I mantain the repo using a pre-commit hook to avoid commiting lines with API keys:
 
 ```zsh
-cp pre-commit .git/hooks/
+ln -srf pre-commit .git/hooks/
 ```
 Make sure to unstage lines containing sensitive data.
