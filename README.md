@@ -1,6 +1,16 @@
 # syncthing-config
 This repo tracks the [Syncthing](https://github.com/syncthing/syncthing) config files of my phone and my laptops.
 
+  - [What do I sync?](#what-do-i-sync)
+    - [Home directory](#home-directory)
+    - [Phone](#phone)
+  - [Installation](#installation)
+  - [Setup](#setup)
+    - [Desktop config](#desktop-config)
+    - [Android config](#android-config)
+    - [Run at startup](#run-at-startup)
+    - [Sensitive files and folders to be ignored by git](#sensitive-files-and-folders-to-be-ignored-by-git)
+
 ## What do I sync?
 I sync some folders of my home directory between my laptops, and some folders of my phone.
 
