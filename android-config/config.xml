@@ -1,8 +1,12 @@
-<configuration version="32">
+<configuration version="33">
     <folder id="ga50-int-app-pictures" label="INT/App Pictures" path="/storage/emulated/0/Pictures" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="true" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy=""></device>
-        <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy=""></device>
+        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
+        <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
         <minDiskFree unit="%">1</minDiskFree>
         <versioning>
             <cleanupIntervalS>0</cleanupIntervalS>
@@ -31,8 +35,12 @@
     </folder>
     <folder id="ga50-int-dcim" label="INT/DCIM" path="/storage/emulated/0/DCIM" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="true" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy=""></device>
-        <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy=""></device>
+        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
+        <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
         <minDiskFree unit="%">5</minDiskFree>
         <versioning>
             <cleanupIntervalS>0</cleanupIntervalS>
@@ -61,8 +69,12 @@
     </folder>
     <folder id="ga50-int-downloads" label="INT/Downloads" path="/storage/emulated/0/Download" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="true" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy=""></device>
-        <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy=""></device>
+        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
+        <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
         <minDiskFree unit="%">5</minDiskFree>
         <versioning>
             <cleanupIntervalS>0</cleanupIntervalS>
@@ -91,8 +103,12 @@
     </folder>
     <folder id="ga50-int-messenger" label="INT/Messenger" path="/storage/emulated/0/Movies/Messenger" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="true" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy=""></device>
-        <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy=""></device>
+        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
+        <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
         <minDiskFree unit="%">1</minDiskFree>
         <versioning>
             <cleanupIntervalS>0</cleanupIntervalS>
@@ -121,8 +137,12 @@
     </folder>
     <folder id="ga50-int-voice" label="INT/Voice" path="/storage/emulated/0/Voice Recorder" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="true" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy=""></device>
-        <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy=""></device>
+        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
+        <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
         <minDiskFree unit="%">5</minDiskFree>
         <versioning>
             <cleanupIntervalS>0</cleanupIntervalS>
@@ -151,8 +171,12 @@
     </folder>
     <folder id="ga50-int-whats" label="INT/Whats" path="/storage/emulated/0/WhatsApp/Media" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="true" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy=""></device>
-        <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy=""></device>
+        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
+        <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
         <minDiskFree unit="%">5</minDiskFree>
         <versioning>
             <cleanupIntervalS>0</cleanupIntervalS>
@@ -181,8 +205,12 @@
     </folder>
     <folder id="ga50-int-xdvcam" label="INT/XDVCam" path="/storage/emulated/0/X1-DV/XDV_media" type="sendonly" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="true" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy=""></device>
-        <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy=""></device>
+        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
+        <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
         <minDiskFree unit="%">5</minDiskFree>
         <versioning type="trashcan">
             <param key="cleanoutDays" val="14"></param>
@@ -212,8 +240,12 @@
     </folder>
     <folder id="ga50-sd-dcim" label="SD/DCIM" path="/storage/81B0-1B11/DCIM" type="sendonly" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="true" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy=""></device>
-        <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy=""></device>
+        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
+        <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
         <minDiskFree unit="%">5</minDiskFree>
         <versioning type="trashcan">
             <param key="cleanoutDays" val="30"></param>
@@ -243,8 +275,12 @@
     </folder>
     <folder id="ga50-sd-downloads" label="SD/Downloads" path="/storage/81B0-1B11/Download" type="sendonly" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="true" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy=""></device>
-        <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy=""></device>
+        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
+        <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
         <minDiskFree unit="%">5</minDiskFree>
         <versioning type="trashcan">
             <param key="cleanoutDays" val="30"></param>
@@ -274,8 +310,12 @@
     </folder>
     <folder id="ga50-sd-voice" label="SD/Voice" path="/storage/81B0-1B11/Voice Recorder" type="sendonly" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="true" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy=""></device>
-        <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy=""></device>
+        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
+        <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
         <minDiskFree unit="%">5</minDiskFree>
         <versioning type="trashcan">
             <param key="cleanoutDays" val="30"></param>
@@ -305,8 +345,12 @@
     </folder>
     <folder id="ga50-syncthing-config" label="INT/Syncthing Config" path="/storage/emulated/0/backups/syncthing" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="true" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy=""></device>
-        <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy=""></device>
+        <device id="T2U3AIP-BL44H5B-YCSVCV4-DPAZDDH-BNBU5G6-6IT654T-IUF4BWF-ER2IBAG" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
+        <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
         <minDiskFree unit="%">5</minDiskFree>
         <versioning type="trashcan">
             <param key="cleanoutDays" val="30"></param>
@@ -341,6 +385,8 @@
         <maxSendKbps>0</maxSendKbps>
         <maxRecvKbps>0</maxRecvKbps>
         <maxRequestKiB>0</maxRequestKiB>
+        <untrusted>false</untrusted>
+        <remoteGUIPort>0</remoteGUIPort>
     </device>
     <device id="ZE376ML-JJNQUAW-B4OB6NR-TEKNIJI-CJZVEVM-K4EDRBO-D5JGBPE-FM3L2A5" name="DESKTOP/T-X1Y3" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
         <address>dynamic</address>
@@ -349,6 +395,8 @@
         <maxSendKbps>0</maxSendKbps>
         <maxRecvKbps>0</maxRecvKbps>
         <maxRequestKiB>0</maxRequestKiB>
+        <untrusted>false</untrusted>
+        <remoteGUIPort>0</remoteGUIPort>
     </device>
     <gui enabled="true" tls="true" debugging="false">
         <address>127.0.0.1:8384</address>
@@ -402,5 +450,8 @@
         <databaseTuning>small</databaseTuning>
         <maxConcurrentIncomingRequestKiB>0</maxConcurrentIncomingRequestKiB>
         <announceLANAddresses>true</announceLANAddresses>
+        <sendFullIndexOnUpgrade>false</sendFullIndexOnUpgrade>
+        <connectionLimitEnough>0</connectionLimitEnough>
+        <connectionLimitMax>0</connectionLimitMax>
     </options>
 </configuration>
