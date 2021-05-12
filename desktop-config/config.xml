@@ -19,7 +19,7 @@
         <pullerMaxPendingKiB>0</pullerMaxPendingKiB>
         <hashers>0</hashers>
         <order>newestFirst</order>
-        <ignoreDelete>false</ignoreDelete>
+        <ignoreDelete>true</ignoreDelete>
         <scanProgressIntervalS>0</scanProgressIntervalS>
         <pullerPauseS>0</pullerPauseS>
         <maxConflicts>10</maxConflicts>
@@ -57,7 +57,7 @@
         <pullerMaxPendingKiB>0</pullerMaxPendingKiB>
         <hashers>0</hashers>
         <order>newestFirst</order>
-        <ignoreDelete>false</ignoreDelete>
+        <ignoreDelete>true</ignoreDelete>
         <scanProgressIntervalS>0</scanProgressIntervalS>
         <pullerPauseS>0</pullerPauseS>
         <maxConflicts>10</maxConflicts>
@@ -95,7 +95,7 @@
         <pullerMaxPendingKiB>0</pullerMaxPendingKiB>
         <hashers>0</hashers>
         <order>newestFirst</order>
-        <ignoreDelete>false</ignoreDelete>
+        <ignoreDelete>true</ignoreDelete>
         <scanProgressIntervalS>0</scanProgressIntervalS>
         <pullerPauseS>0</pullerPauseS>
         <maxConflicts>10</maxConflicts>
@@ -131,7 +131,7 @@
         <pullerMaxPendingKiB>0</pullerMaxPendingKiB>
         <hashers>0</hashers>
         <order>random</order>
-        <ignoreDelete>false</ignoreDelete>
+        <ignoreDelete>true</ignoreDelete>
         <scanProgressIntervalS>0</scanProgressIntervalS>
         <pullerPauseS>0</pullerPauseS>
         <maxConflicts>10</maxConflicts>
@@ -169,7 +169,7 @@
         <pullerMaxPendingKiB>0</pullerMaxPendingKiB>
         <hashers>0</hashers>
         <order>newestFirst</order>
-        <ignoreDelete>false</ignoreDelete>
+        <ignoreDelete>true</ignoreDelete>
         <scanProgressIntervalS>0</scanProgressIntervalS>
         <pullerPauseS>0</pullerPauseS>
         <maxConflicts>10</maxConflicts>
@@ -207,7 +207,7 @@
         <pullerMaxPendingKiB>0</pullerMaxPendingKiB>
         <hashers>0</hashers>
         <order>newestFirst</order>
-        <ignoreDelete>false</ignoreDelete>
+        <ignoreDelete>true</ignoreDelete>
         <scanProgressIntervalS>0</scanProgressIntervalS>
         <pullerPauseS>0</pullerPauseS>
         <maxConflicts>10</maxConflicts>
@@ -245,7 +245,7 @@
         <pullerMaxPendingKiB>0</pullerMaxPendingKiB>
         <hashers>0</hashers>
         <order>newestFirst</order>
-        <ignoreDelete>false</ignoreDelete>
+        <ignoreDelete>true</ignoreDelete>
         <scanProgressIntervalS>0</scanProgressIntervalS>
         <pullerPauseS>0</pullerPauseS>
         <maxConflicts>10</maxConflicts>
@@ -283,7 +283,7 @@
         <pullerMaxPendingKiB>0</pullerMaxPendingKiB>
         <hashers>0</hashers>
         <order>newestFirst</order>
-        <ignoreDelete>false</ignoreDelete>
+        <ignoreDelete>true</ignoreDelete>
         <scanProgressIntervalS>0</scanProgressIntervalS>
         <pullerPauseS>0</pullerPauseS>
         <maxConflicts>10</maxConflicts>
@@ -321,7 +321,7 @@
         <pullerMaxPendingKiB>0</pullerMaxPendingKiB>
         <hashers>0</hashers>
         <order>newestFirst</order>
-        <ignoreDelete>false</ignoreDelete>
+        <ignoreDelete>true</ignoreDelete>
         <scanProgressIntervalS>0</scanProgressIntervalS>
         <pullerPauseS>0</pullerPauseS>
         <maxConflicts>10</maxConflicts>
@@ -359,7 +359,7 @@
         <pullerMaxPendingKiB>0</pullerMaxPendingKiB>
         <hashers>0</hashers>
         <order>newestFirst</order>
-        <ignoreDelete>false</ignoreDelete>
+        <ignoreDelete>true</ignoreDelete>
         <scanProgressIntervalS>0</scanProgressIntervalS>
         <pullerPauseS>0</pullerPauseS>
         <maxConflicts>10</maxConflicts>
